@@ -1,0 +1,5 @@
+com\selenium\maven\AprilSeleniumMaven2pm\BaseTestRunThruXML.class
+com\selenium\maven\AprilSeleniumMaven2pm\ExtentManagerRunThruXML.class
+com\selenium\maven\AprilSeleniumMaven2pm\App.class
+com\selenium\maven\AprilSeleniumMaven2pm\ExtentManager.class
+com\selenium\maven\AprilSeleniumMaven2pm\Sel03DriverBaseDynamic.class

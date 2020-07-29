@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [multiBrowserSuite]">
+  <test thread-count="5" name="multiBrowserTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.selenium.runTHROUGHXML.TC_002">
+        <methods>
+          <include name="endProcess"/>
+          <include name="startProcess"/>
+          <include name="amazon"/>
+        </methods>
+      </class> <!-- com.selenium.runTHROUGHXML.TC_002 -->
+      <class name="com.selenium.runTHROUGHXML.RadioButton1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="radioButton"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.selenium.runTHROUGHXML.RadioButton1 -->
+      <class name="com.selenium.runTHROUGHXML.CheckBox1">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="checkboxTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.selenium.runTHROUGHXML.CheckBox1 -->
+      <class name="com.selenium.runTHROUGHXML.LinksTesting1">
+        <methods>
+          <include name="setup"/>
+          <include name="linktesting1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.runTHROUGHXML.LinksTesting1 -->
+    </classes>
+  </test> <!-- multiBrowserTest(failed) -->
+</suite> <!-- Failed suite [multiBrowserSuite] -->
